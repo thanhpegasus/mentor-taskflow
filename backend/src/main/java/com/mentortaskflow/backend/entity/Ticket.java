@@ -3,7 +3,6 @@ package com.mentortaskflow.backend.entity;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-import org.hibernate.annotations.UuidGenerator;
 import org.springframework.data.annotation.CreatedDate;
 
 import jakarta.persistence.Entity;
