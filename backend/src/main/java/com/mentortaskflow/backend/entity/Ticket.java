@@ -22,5 +22,6 @@ public class Ticket{
     private String description;
     private String status;
     @CreatedDate
+    @Column(name = "created_at")
     private LocalDateTime createdAt;
 }
